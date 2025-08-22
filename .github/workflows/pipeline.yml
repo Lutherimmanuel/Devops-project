@@ -31,4 +31,4 @@ jobs:
 
       # Stage 5: Run Docker Container
       - name: Run Docker container
-        run: sudo docker run -dt --name appcontainer -p 5081:8080 myfile
+        run: sudo docker run -dt --name appcontainer -p 5081:8080 myfile 
